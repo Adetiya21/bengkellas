@@ -74,7 +74,7 @@
 											<div class="col-sm-10">
 												<input id="uploadImage" class="form-control" type="file" name="logo" onchange="PreviewImage();" value="<?= $tentang->logo ?>" />
 												<div class="form-group" id="photo-preview"></div>
-								                <p class="help-block">PNG, JPG, Max. 2MB</p>
+								                <p class="help-block">PNG, JPG, JPEG, Max. 2MB</p>
 								                <img id="uploadPreview" style="width:300px; height:150px; border-radius: 10px; box-shadow: 0px 0px 3px 0px;" src="<?= base_url('assets/assets/img/logo/') ?><?= $tentang->logo ?>" />
 												<!-- <input type="file" class="form-control"> -->
 											</div>

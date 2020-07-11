@@ -44,7 +44,7 @@ class Custom_upload {
 			$upload_path = FCPATH.$conf['upload_path'];
 			if (!is_dir($upload_path))
 				mkdir($upload_path, 0777, true);
-
+			
 			$config = array(
 				'upload_path' => $upload_path,
 				'allowed_types' => $conf['allowed_types'],

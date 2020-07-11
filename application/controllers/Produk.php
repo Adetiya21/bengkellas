@@ -13,7 +13,7 @@ class Produk extends CI_Controller {
             $this->load->view('utama/temp-header',$title);
 
             $query = $this->db->order_by('tgl', 'desc');
-            $query = $this->db->limit('4');
+            $query = $this->db->limit('8');
             $query = $this->db->where(array('id_kategori' => $row->id, ));
             $query = $this->db->get('tb_produk');
             $data['produk'] = $query;

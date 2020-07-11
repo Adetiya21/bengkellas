@@ -55,7 +55,11 @@ class Produk extends CI_Controller {
 		if ($this->input->is_ajax_request()) {
 			$where = array('id' => $id);
 			$this->DButama->GetDBWhere($this->table,$where)->row();
-			$this->DButama->DeleteDB($this->table,$where);
+			$tes = $this->DButama->GetDBWhere($this->table,$where)->row();
+			$query = $this->DButama->DeleteDB($this->table,$where);
+			if($query){
+                unlink("assets/assets/img/produk/".$tes->gambar);
+            }
 			echo json_encode(array("status" => TRUE));
 		}
 	}
@@ -93,7 +97,10 @@ class Produk extends CI_Controller {
 			$id_kategori = $this->input->post('id_kategori');
 			$file = $this->custom_upload->multiple_upload('gambar', array(
 				'upload_path' => 'assets/assets/img/produk/',
-				'allowed_types' => 'jpg|jpeg|png' // etc
+				'allowed_types' => 'jpg|jpeg|png', // etc
+				'quality' => '50%',
+				'width' => 500,
+                'height' => 500
 			));
 
 			$data = array();

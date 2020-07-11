@@ -76,45 +76,9 @@
 				    	</a>
 				  	</div>
 					<?php } ?>
-				 	<!-- <div class="col-xs-6 col-md-3">
-				    	<a href="<?= base_url('assets/front-end/') ?>images/Pagar/pagar1.jpg" class="thumbnail">
-				      		<img data-src="holder.js/100%x180" src="<?= base_url('assets/front-end/') ?>images/Pagar/pagar1.jpg" alt="...">
-				    	</a>
-				  	</div>
-				  	<div class="col-xs-6 col-md-3">
-				    	<a href="<?= base_url('assets/front-end/') ?>images/Teralis/teralis1.jpg" class="thumbnail">
-				      		<img data-src="holder.js/100%x180" src="<?= base_url('assets/front-end/') ?>images/Teralis/teralis1.jpg" alt="...">
-				    	</a>
-				  	</div>
-				  	<div class="col-xs-6 col-md-3">
-				    	<a href="<?= base_url('assets/front-end/') ?>images/Pintu/pintu1.jpg" class="thumbnail">
-				      		<img data-src="holder.js/100%x180" src="<?= base_url('assets/front-end/') ?>images/Pintu/pintu1.jpg" alt="...">
-				    	</a>
-				  	</div>
-
-				  	<div class="col-xs-6 col-md-3">
-				    	<a href="<?= base_url('assets/front-end/') ?>images/KanopiProses/kanopiproses1.jpg" class="thumbnail">
-				      		<img data-src="holder.js/100%x180" src="<?= base_url('assets/front-end/') ?>images/KanopiProses/kanopiproses1.jpg" alt="...">
-				    	</a>
-				  	</div>
-				 	<div class="col-xs-6 col-md-3">
-				    	<a href="<?= base_url('assets/front-end/') ?>images/PintuProses/pintuproses2.jpg" class="thumbnail">
-				      		<img data-src="holder.js/100%x180" src="<?= base_url('assets/front-end/') ?>images/PintuProses/pintuproses2.jpg" alt="...">
-				    	</a>
-				  	</div>
-				  	<div class="col-xs-6 col-md-3">
-				    	<a href="<?= base_url('assets/front-end/') ?>images/TeralisProses/teralisproses1.jpg" class="thumbnail">
-				      		<img data-src="holder.js/100%x180" src="<?= base_url('assets/front-end/') ?>images/TeralisProses/teralisproses1.jpg" alt="...">
-				    	</a>
-				  	</div>
-				  	<div class="col-xs-6 col-md-3">
-				    	<a href="<?= base_url('assets/front-end/') ?>images/Lainnya/gantungan1.jpg" class="thumbnail">
-				      		<img data-src="holder.js/100%x180" src="<?= base_url('assets/front-end/') ?>images/Lainnya/gantungan1.jpg" alt="...">
-				    	</a>
-				  	</div> -->
 				</div>
 				<div class="col-xs-12 col-md-12" style="text-align: center;">
-				  	 <a href="<?= base_url('assets/front-end/') ?>galeri.html"><button class="btn btn-default tbl-cari">Selengkapnya..</button></a>
+				  	 <a href="<?= site_url('galeri') ?>"><button class="btn btn-default tbl-cari">Selengkapnya..</button></a>
 				</div>
 			</div>
 		</div>

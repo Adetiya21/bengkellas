@@ -147,7 +147,6 @@ select {
         {"data": "icon","orderable": false,
             render: function(data) { 
                 if(data!==null) {
-                  // return 'Tidak Ada Foto'
                   return '<span class="fa '+data+'"></span>'
                 } else {
                     return '<i>(Tidak ada icon)</i>'
@@ -156,10 +155,15 @@ select {
               defaultContent: 'icon'
         },
         {"data": "judul"},
-        {"data": "deskripsi"},
+        {"data": "deskripsi",
+            render: function(data) { 
+                return data.substr(0,50)+' ...'
+            },
+              defaultContent: 'icon'
+          },
         {"data": "view","orderable": false}
         ],
-        order: [[1, 'asc']],
+        order: [[0, 'asc']],
         rowCallback: function(row, data, iDisplayIndex) {
             var info = this.fnPagingInfo();
             var page = info.iPage;
