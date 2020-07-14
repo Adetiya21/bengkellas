@@ -25,7 +25,7 @@
 		<div class="row align-items-end">
 			<div class="col-lg-8">
 				<div class="page-header-title">
-					<i class="feather icon-layout bg-c-blue"></i>
+					<i class="feather icon-clipboard bg-c-blue"></i>
 					<div class="d-inline">
 						<h5>Galeri Produk
                             <?php foreach ($kategori->result() as $key) {

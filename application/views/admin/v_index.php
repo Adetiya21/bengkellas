@@ -36,7 +36,7 @@
 
 					<div class="row">
 
-						<div class="col-xl-6 col-md-6">
+						<a href="<?= site_url('admin/kategori') ?>" class="col-xl-6 col-md-6">
 							<div class="card prod-p-card card-red">
 								<div class="card-body">
 									<div class="row align-items-center m-b-30">
@@ -50,7 +50,7 @@
 									</div>
 								</div>
 							</div>
-						</div>
+						</a>
 						<div class="col-xl-6 col-md-6">
 							<div class="card prod-p-card card-yellow">
 								<div class="card-body">
@@ -68,7 +68,7 @@
 						</div>
 					<div class="col-xl-8 col-md-12">
 						<div class="row">
-							<div class="col-xl-6 col-md-6">
+							<a href="<?= site_url('admin/admin') ?>" class="col-xl-6 col-md-6">
 								<div class="card comp-card">
 									<div class="card-body">
 										<div class="row align-items-center">
@@ -82,8 +82,8 @@
 										</div>
 									</div>
 								</div>
-							</div>
-							<div class="col-xl-6 col-md-6">
+							</a>
+							<a href="<?= site_url('admin/header') ?>" class="col-xl-6 col-md-6">
 								<div class="card comp-card">
 									<div class="card-body">
 										<div class="row align-items-center">
@@ -97,7 +97,7 @@
 										</div>
 									</div>
 								</div>
-							</div>
+							</a>
 
 							<div class="col-xl-12 col-md-12">
 								<div class="card table-card">

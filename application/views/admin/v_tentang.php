@@ -28,10 +28,10 @@
 		<div class="row align-items-end">
 			<div class="col-lg-8">
 				<div class="page-header-title">
-					<i class="feather icon-user bg-c-blue"></i>
+					<i class="feather icon-book bg-c-blue"></i>
 					<div class="d-inline">
-						<h5>Tentang Website</h5>
-						<span>Isi data informasi tentang website.</span>
+						<h5>Tentang Usaha</h5>
+						<span>Isi data informasi tentang usaha.</span>
 					</div>
 				</div>
 			</div>
@@ -42,7 +42,7 @@
 							<a href="<?= site_url('admin/home') ?>"><i class="feather icon-home"></i></a>
 						</li>
 						<li class="breadcrumb-item">
-							<a href="<?= site_url('admin/tentang') ?>">Tentang Website</a>
+							<a href="<?= site_url('admin/tentang') ?>">Tentang Bengkel Las</a>
 						</li>
 					</ul>
 				</div>
@@ -60,7 +60,7 @@
 						<div class="col-sm-12">
 							<div class="card">
 								<div class="card-header">
-									<h5>Data Informasi Tentang Website</h5>	
+									<h5>Data Informasi Usaha</h5>	
 									<div class="card-header-right"> <ul class="list-unstyled card-option"> <li class="first-opt"><i class="feather icon-chevron-left open-card-option"></i></li> <li><i class="feather icon-maximize full-card"></i></li> <li><i class="feather icon-minus minimize-card"></i></li> <li><i class="feather icon-refresh-cw reload-card"></i></li> <li><i class="feather icon-trash close-card"></i></li> <li><i class="feather icon-chevron-left open-card-option"></i></li> </ul> </div>				
 								</div>
 								<div class="card-block">
@@ -70,17 +70,17 @@
 			                        <?= form_open('admin/tentang/proses',$arb); ?>
 			                        <input type="hidden" class="form-control" value="<?= $tentang->id ?>" name="id">
 			                        	<div class="form-group row">
-											<label class="col-sm-2 col-form-label">Logo Website</label>
+											<label class="col-sm-2 col-form-label">Logo Usaha</label>
 											<div class="col-sm-10">
 												<input id="uploadImage" class="form-control" type="file" name="logo" onchange="PreviewImage();" value="<?= $tentang->logo ?>" />
 												<div class="form-group" id="photo-preview"></div>
-								                <p class="help-block">PNG, JPG, JPEG, Max. 2MB</p>
-								                <img id="uploadPreview" style="width:300px; height:150px; border-radius: 10px; box-shadow: 0px 0px 3px 0px;" src="<?= base_url('assets/assets/img/logo/') ?><?= $tentang->logo ?>" />
+								                <p class="help-block">PNG, JPG, JPEG - (274px X 84px) Max. 2MB </p>
+								                <img id="uploadPreview" style="max-width:300px; height:150px; border-radius: 10px; box-shadow: 0px 0px 3px 0px;" src="<?= base_url('assets/assets/img/logo/') ?><?= $tentang->logo ?>" />
 												<!-- <input type="file" class="form-control"> -->
 											</div>
 										</div>
 			                        	<div class="form-group row">
-											<label class="col-sm-2 col-form-label">Deskripsi Website</label>
+											<label class="col-sm-2 col-form-label">Deskripsi Usaha</label>
 											<div class="col-sm-10">
 												<textarea class="form-control" name="keterangan" rows="8" id="editor1"><?= $tentang->keterangan ?></textarea>
 											</div>

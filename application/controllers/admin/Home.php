@@ -43,7 +43,7 @@ class Home extends CI_Controller {
 			$this->load->view('admin/v_profil',$data);
 			$this->load->view('admin/temp-footer');
 		}else{
-			// redirect('error404','refresh');
+			redirect('error404','refresh');
 		}
 	}
 
@@ -68,7 +68,6 @@ class Home extends CI_Controller {
 				$pass=$this->input->post('password');
 				$hash=password_hash($pass, PASSWORD_DEFAULT);
 				$data = array(
-
 					'nama' => $this->input->post('nama'),
 					'username' => $this->input->post('username'),
 					'password' => $hash

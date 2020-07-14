@@ -71,7 +71,7 @@
 		      <div class="navbar-form navbar-right" role="search">
 		      	<?= form_open('produk/cari'); ?>
 		        <div class="form-group">
-		          <input type="text" class="form-control" placeholder="Cari apa saja" name="cari">
+		          <input type="text" class="form-control" placeholder="Cari produk" name="cari">
 		        </div>
 		        <button type="submit" class="btn btn-default tbl-cari">Cari</button>
 		        <?= form_close(); ?>

@@ -67,7 +67,7 @@
 										<tr><th width="1%">No</th>
 										<th width="100px">Gambar</th>
                                         <th>Nama</th>
-                                        <th>Deskripsi</th>
+                                        <th>Deskripsi Singkat Halaman Home</th>
                                         <th>Spesifikasi</th>
 										<th width="10%">Action</th>
 										</tr>

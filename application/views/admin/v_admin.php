@@ -171,7 +171,7 @@
         $('.form-group').removeClass('has-error'); // clear error class
         $('.help-block').empty(); // clear error string
         $('#modal_form').modal('show'); // show bootstrap modal
-        $('.modal-title').text('Tambah admin'); // Set Title to Bootstrap modal title
+        $('.modal-title').text('Tambah Admin'); // Set Title to Bootstrap modal title
     }
 
     //fun edit
@@ -192,7 +192,7 @@
 	            $('[name="username"]').val(data.username);
 	            $('[name="password"]').val(data.password);
 	            $('#modal_form').modal('show'); // show bootstrap modal when complete loaded
-	            $('.modal-title').text('Edit Data admin'); // Set title to Bootstrap modal title
+	            $('.modal-title').text('Edit Data Admin'); // Set title to Bootstrap modal title
 	            
 	        },
 	        error: function (jqXHR, textStatus, errorThrown)

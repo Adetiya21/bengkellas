@@ -24,10 +24,10 @@
 		<div class="row align-items-end">
 			<div class="col-lg-8">
 				<div class="page-header-title">
-					<i class="feather icon-layout bg-c-blue"></i>
+					<i class="feather icon-image bg-c-blue"></i>
 					<div class="d-inline">
 						<h5>Header</h5>
-						<span>Berikut daftar header.</span>
+						<span>Berikut gambar daftar header.</span>
 					</div>
 				</div>
 			</div>
@@ -276,7 +276,7 @@
                                 </div>
                             </div>
                             <input id="uploadImage" type="file" name="gambar" onchange="PreviewImage();" class="form-control" />
-                            <p class="help-block">Max. 2MB</p>
+                            <p class="help-block">JPG, JPEG, PNG - (922px X 495px) Max. 2MB</p>
                             <img id="uploadPreview" style="width:100%;" />
                         </div>
                     </div>

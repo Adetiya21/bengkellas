@@ -38,7 +38,11 @@ class Header extends CI_Controller {
 		if ($this->input->is_ajax_request()) {
 			$where = array('id' => $id);
 			$this->DButama->GetDBWhere($this->table,$where)->row();
-			$this->DButama->DeleteDB($this->table,$where);
+			$tes = $this->DButama->GetDBWhere($this->table,$where)->row();
+			$query = $this->DButama->DeleteDB($this->table,$where);
+			if($query){
+                unlink("assets/assets/img/header/".$tes->gambar);
+            }
 			echo json_encode(array("status" => TRUE));
 		}
 	}

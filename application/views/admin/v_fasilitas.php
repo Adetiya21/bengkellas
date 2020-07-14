@@ -44,7 +44,7 @@ select {
 		<div class="row align-items-end">
 			<div class="col-lg-8">
 				<div class="page-header-title">
-					<i class="feather icon-layout bg-c-blue"></i>
+					<i class="feather icon-feather bg-c-blue"></i>
 					<div class="d-inline">
 						<h5>Fasilitas Website</h5>
 						<span>Berikut data fasilitas website.</span>

@@ -43,7 +43,7 @@
 				<div class="navbar-wrapper">
 					<div class="navbar-logo">
 						<a href="index.html">
-							<img class="img-fluid" src="<?= base_url('assets/assets/img/logo/'.$ten->logo) ?>" style="background: #fff; width: 60%;" alt="Theme-Logo" />
+							<img class="img-fluid" src="<?= base_url('assets/assets/img/logo/'.$ten->logo) ?>" style="background: #fff; max-width: 50%;" alt="Theme-Logo"/>
 						</a>
 						<a class="mobile-menu" id="mobile-collapse" href="#!">
 							<i class="feather icon-menu icon-toggle-right"></i>
@@ -140,7 +140,7 @@
 											<span class="pcoded-micon">
 												<i class="feather icon-book"></i>
 											</span>
-											<span class="pcoded-mtext">Informasi Tentang Website</span>
+											<span class="pcoded-mtext">Informasi Tentang Usaha</span>
 										</a>
 									</li>
 
@@ -175,7 +175,7 @@
 									</li>
 
 									
-								</ul><hr><br><br>
+								</ul><hr><br>
 								<div class="pcoded-navigation-label" style=" text-align: center;">Copyright© 2020<br>Allrights Reserved.</div>
 
 							</div>

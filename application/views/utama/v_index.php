@@ -58,7 +58,7 @@
 			<div class="row tentang-kami">
 				<h2 class="jenis-font3" style="font-size: 35px;">Tentang Kami</h2>
 				<p style="font-size: 15px;"><?= substr($tentang->keterangan, 0, 234) ?>...</p>
-				<a href="<?= site_url('tentangkami') ?>">Selengkapnya</a> <br><br>
+				<a href="<?= site_url('tentang-kami') ?>">Selengkapnya</a> <br><br>
 			</div>
 		</div>
 	</section>

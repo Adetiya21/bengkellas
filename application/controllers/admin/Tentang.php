@@ -5,6 +5,17 @@ class Tentang extends CI_Controller {
 
 	var $table = 'tb_tentang';
 
+	public function __construct()
+	{
+		parent::__construct();
+		if ($this->session->userdata('admin_logged_in') !=  "Sudah_Loggin") {
+			echo "<script>
+			alert('Login Dulu!');";
+			echo 'window.location.assign("'.site_url("admin/welcome").'")
+			</script>';
+		}
+	}
+
 	public function index()
 	{
 		$data['title'] = 'Informasi Tentang Website';

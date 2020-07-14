@@ -88,12 +88,9 @@
 				                        <!-- <input id="uploadImage" class="form-control" type="file" name="gambar" onchange="PreviewImage();" value="" /> -->
 				                        <input type="file" name="gambar[]" class="form-control" id="chooseFile" multiple>
 				                        <div class="imgGallery">
-				                        	<p class="help-block">JPG, PNG, JPEG, Max. 2MB</p> 
+				                        	<p class="help-block">JPG, PNG, JPEG - (400px X 400px) Max. 2MB</p> 
 									      <!-- Image preview -->
 									    </div>
-				                        <!-- <div class="form-group" id="photo-preview"></div>
-			                                <p class="help-block">Max. 2MB</p>
-			                                <img id="uploadPreview" style="width:300px; height:280px; border-radius: 10px; box-shadow: 0px 0px 3px 0px;" src="<?= base_url('assets/assets/img/produk/') ?>" /> -->
 				                      </div>
 				                    </div>
 				                    <hr>
